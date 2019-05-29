@@ -1,2 +1,4 @@
 # Invoice-Manager
-A system that will manage invoices
+This system will allow for a user to generate and manage invoices through a conveneient web interface.  
+
+It will also allow you to manager individual/company billing information.
