@@ -1,13 +1,18 @@
+<?php
+// Requiring the class and functions file
+require('includes/functions.php');
+require('includes/class.php');
+sessionCheck();
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Invoice Manager</title>
-    <!-- Bootstrap css and js cdn -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- Including our class file -->
-  </head>
+<?php
+// Initializing a new page using the htmlElement class
+$page=new htmlElement();
+// Rendering the head element and its contents
+$page->renderHeader();
+?>
   <body>
+    Index
   </body>
 </html>
