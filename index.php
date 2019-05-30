@@ -10,7 +10,7 @@ sessionCheck();
 // Initializing a new page using the htmlElement class
 $page=new htmlElement();
 // Rendering the head element and its contents
-$page->renderHeader();
+$page->renderHead();
 ?>
   <body>
     Index
