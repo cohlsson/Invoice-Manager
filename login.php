@@ -11,8 +11,7 @@ loginCheck();
 $page=new htmlElement();
 // Rendering the head element and its contents
 $page->renderHead();
+// Rendering the login contents
+$page->renderLogin();
 ?>
-  <body>
-    Login
-  </body>
 </html>
